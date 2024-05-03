@@ -1,4 +1,4 @@
-nav{
+nav {
     background-color:steelblue;
     padding: 10px;
 }
@@ -21,12 +21,12 @@ main img {
     box-shadow: 0 0 30px gray;
 }
 
-p{
+p {
     padding: 0;
 }
 
 main {
-    max-width:840px
+    max-width: 840px;
 }
 
 aside {
@@ -39,13 +39,13 @@ aside {
     text-align: center;
 }
 
-aside img{
+aside img {
     width: 200px;
     height: auto;
 }
 
 footer {
     margin-top: 20px;
-    border-top: 1px dotted;
+    border-top: 1px dotted black;
     text-align: center;
 }
