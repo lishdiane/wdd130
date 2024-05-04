@@ -11,13 +11,13 @@ body {
     --secondary-color: #98C1D9;
     --accent1-color: #3D5A80;
     --accent2-color: #F67835;
-    /* --accent3-color: #293241; */
+    --accent3-color: #293241;
     --heading-font: 'Raleway';
     --paragraph-font: 'Open Sans', sans;
     --nav-background-color: #E0FBFC;
     --nav-link-color: #293241;
     --nav-hover-link-color: #E0FBFC;
-    --nav-hoverbackground-color: #293241;
+    --nav-hover-background-color: #293241;
 }
 
 h1, h2, h3, h4, h5, h6 {
