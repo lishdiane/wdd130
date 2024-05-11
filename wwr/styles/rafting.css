@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --primary-color: #E0FBFC;
+    --secondary-color: #98C1D9;
+    --accent1-color: #3D5A80;
+    --accent2-color: #F67835;
+    --accent3-color: #293241;
+    --heading-font: 'Raleway';
+    --paragraph-font: 'Open Sans', sans;
+    --nav-background-color: #E0FBFC;
+    --nav-link-color: #293241;
+    --nav-hover-link-color: #E0FBFC;
+    --nav-hover-background-color: #293241;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 960px;
+    padding: 20px;
+    margin: auto;
+    font-family: var(--paragraph-font);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--accent3-color);
+}
+
+p {
+    padding: 25px;
+    color: var(--accent3-color)
+}
+
+footer a {
+    text-decoration: none
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+}
+
+.hero img{
+    display:block;
+    width: 100%;
+    height: auto;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 40%;
+    margin:auto;
+    background-color: rgb(from var(--accent3-color) r g b / 50%);
+    padding: 1em; 
+}
+
+.hero p {
+    color: var(--primary-color);
+}
+
+.hero article img {
+    float: right;
+    width: 20%;
+    height: auto;
+    border: 2px solid var(--secondary-color)
+}
+
+h1 {
+    position: absolute;
+    top: 25px;
+    background-color: rgb(from var(--primary-color) r g b / 30%);
+    margin: auto;
+    padding: 1rem 0;
+    width: 100%;
+    text-align: center;
+}
+
+
+header img {
+    width: 9vw;
+}
+
+header nav {
+    position: relative;
+    bottom: 30px;
+    display: inline;
+    padding: 2vw 6vw;
+    margin: auto;
+}
+
+header a {
+    padding: 3vw;
+}
+
+section img {
+    max-width: 60%;
+}
+
+footer img {
+    display: inline;
+    width: 5vw;
+    padding: 1vw;
+    margin: auto;
+}
