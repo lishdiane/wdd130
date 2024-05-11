@@ -37,10 +37,6 @@ p {
     color: var(--accent3-color)
 }
 
-footer a {
-    text-decoration: none
-}
-
 .hero {
     position: relative;
     width: 100%;
@@ -71,7 +67,7 @@ footer a {
     border: 2px solid var(--secondary-color)
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 25px;
     background-color: #e0fbfc6b;
@@ -100,6 +96,10 @@ header a {
 
 section img {
     max-width: 60%;
+}
+
+footer a {
+    text-decoration: none
 }
 
 footer img {
