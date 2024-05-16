@@ -41,7 +41,7 @@ aside h2 {
 }
 
 nav {
-    background-color:steelblue;
+    background-color:#2d6899;
     padding: 1rem;
     display: flex;
     justify-content: space-evenly;
@@ -57,7 +57,7 @@ nav a {
 }
 
 h1 {
-    color: steelblue;
+    color: #2d6899;
     padding: 1rem;
     border-bottom: steelblue solid;
 }
