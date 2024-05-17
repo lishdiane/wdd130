@@ -167,7 +167,6 @@ p {
         width: 13vw;
         height: 9vw;
         background-color: #3D5A80;
-        flex-shrink: 1 100px;
     }
 
     .adventure figcaption {
