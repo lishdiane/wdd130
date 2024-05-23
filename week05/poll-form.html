@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WDD 130 | HTML Form - User Poll</title>
+    <meta name="description" content="Poll Form WDD130 Diane Lish">
+    <meta name="author" content="Diane Lish">
+    <link rel="stylesheet" href="styles/poll-form.css">
+</head>
+<body>
+    <header>
+        <h1>WDD 130 | Diane Lish | HTML Form - User Poll</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label for="fullname">Full Name: </label>
+                <input type="text" id="fullname" name="fullname">
+                <label for="useremail">Email: </label>
+                <input type="text" id="useremail" name="useremail">
+            </fieldset>
+            <fieldset id="questions">
+                <legend>Questions</legend>
+                <label for="browser">What is your favorite browser? </label>
+                <select id="browser" name="browser">
+                    <option value="firefox">Firefox</option>
+                    <option value="chrome">Chrome</option>
+                    <option value="safari">Safari</option>
+                    <option value="edge">Edge</option>
+                    <option value="other">Other</option>     
+                </select>
+                <label for="pet">Do you have a household pet? </label>
+                <input type="checkbox" id="pet" name="pet">
+                <label for="places">List the places you have lived</label>
+                <textarea id="places" name="places" rows="4" placeholder="Pocatello Idaho, Santa Barbara California, Coeur d'Alene Idaho"></textarea>
+            </fieldset>
+            <button type="submit" id="submit">Submit Poll</button>
+        </form>
+    </main>
+    <footer>
+        <p>©2024 | HTML Form - User Poll Activity | Diane Lish</p>
+    </footer>
+</body>
+</html>
