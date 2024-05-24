@@ -143,6 +143,7 @@ p {
 
     .history p {
         grid-area: content;
+        font-size: 1rem;
     }
 
 /* Adventure Section */
