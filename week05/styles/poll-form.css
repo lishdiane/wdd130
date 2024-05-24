@@ -41,7 +41,6 @@ fieldset {
     margin: .5em;
     padding: 1em;
     border: 1px solid rgb(199, 196, 196);
-    
 }
 
 fieldset legend{
@@ -75,11 +74,12 @@ input[type="checkbox"] {
 }
 
 button{
+    width: 7rem;
+    padding: .5rem;
+    margin: 1em auto;
     background-color: darkblue;
     color: white;
-    align-self: bottom;
     border-radius: .5em;
-    font-size: large;
 }
 
 button:hover {
