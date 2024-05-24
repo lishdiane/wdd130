@@ -68,7 +68,7 @@ button:hover {
 }
 footer {
     text-align: center;
-    color: lightslategray;
+    color: rgb(99, 101, 103);
     font-family: 'Playfair Display';
     margin: 1rem;
 }
