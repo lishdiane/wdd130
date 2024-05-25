@@ -381,6 +381,17 @@ button:hover {
     font-size: 2rem;
 }
 
+.team div {
+    padding: 2rem;
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: smaller;
+}
+
 .team img {
     width: 5rem;
     height: 5rem;
@@ -388,14 +399,4 @@ button:hover {
     border: 1px solid;
 }
 
-.team div {
-    display: grid;
-    grid-gap: 2rem;
-    padding: 2rem;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-size: smaller;
-}
 
