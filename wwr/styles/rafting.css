@@ -394,6 +394,7 @@ button:hover {
     padding: 2rem;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
+    align-items: center;
     text-align: center;
     font-size: smaller;
 }
