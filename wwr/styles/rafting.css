@@ -375,8 +375,10 @@ button:hover {
 .team {
     margin: 2rem 0;
 }
+
 .team h2 {
     text-align: center;
+    font-size: 2rem;
 }
 
 .team img {
@@ -387,10 +389,12 @@ button:hover {
 }
 
 .team div {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
+    display: grid;
+    grid-gap: 2rem;
+    padding: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    text-align: center;
     font-size: smaller;
 }
 
